@@ -1,8 +1,5 @@
 # 2019학년도 교육용 소프트웨어 페스티발
- <div style="width: 350px; height: 250px;">
-     <img src="https://github.com/kyu9341/Python-Movie-Recommendation/blob/master/%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C.jpg" style="width: 350px
-     ; height: 250px;">
- </div>
+![posetr](https://github.com/kyu9341/Python-Movie-Recommendation/blob/master/poster.png)
 ## 행사기간  
 2019.11.11(월) ~ 11.15(금)  
 
