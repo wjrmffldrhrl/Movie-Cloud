@@ -12,7 +12,9 @@ pip install wordcloud
 - KoNLPy  
 http://konlpy.org/ko/latest/install/  
 
-> pip install --upgrade pip  
-> pip install JPype1-0.5.7-cp27-none-win_amd64.whl  
+JAVA_HOME 설정
 
-> pip install konlpy
+pip install --upgrade pip  
+pip install JPype1-0.5.7-cp27-none-win_amd64.whl  
+
+pip install konlpy
