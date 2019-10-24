@@ -19,5 +19,9 @@ pip install JPype1-0.5.7-cp27-none-win_amd64.whl
 
 pip install konlpy
 
+- vocab
+pip install vocab  
+pip install git+https://github.com/vzhong/vocab.git  
+
 # 참고 
 https://pinkwink.kr/1029
