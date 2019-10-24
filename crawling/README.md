@@ -10,5 +10,9 @@
 pip install wordcloud
 
 - KoNLPy  
-pip install konlpy         Python 2.x
-pip3 install konlpy        Python 3.x
+http://konlpy.org/ko/latest/install/  
+
+> pip install --upgrade pip  
+> pip install JPype1-0.5.7-cp27-none-win_amd64.whl  
+
+> pip install konlpy
