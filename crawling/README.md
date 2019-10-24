@@ -18,3 +18,6 @@ pip install --upgrade pip
 pip install JPype1-0.5.7-cp27-none-win_amd64.whl  
 
 pip install konlpy
+
+# 참고 
+https://pinkwink.kr/1029
