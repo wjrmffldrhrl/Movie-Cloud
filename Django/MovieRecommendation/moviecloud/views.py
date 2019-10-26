@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import MoiveData
+from .models import MovieData
 from django.http import HttpResponse
 
 # Create your views here.

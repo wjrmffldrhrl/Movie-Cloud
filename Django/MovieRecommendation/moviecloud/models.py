@@ -5,7 +5,7 @@ from django.db import models
 
 # Create your models here.
 
-class MoiveData(models.Model):
+class MovieData(models.Model):
     title = models.CharField(max_length=100, verbose_name='영화 제목')
     story = models.TextField(verbose_name='줄거리')
     actors = models.CharField(max_length=100, verbose_name='주연 배우')
