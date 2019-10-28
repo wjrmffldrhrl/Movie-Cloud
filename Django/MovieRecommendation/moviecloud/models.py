@@ -9,7 +9,7 @@ class MovieData(models.Model):
     title = models.CharField(max_length=100, verbose_name='영화 제목')
     story = models.TextField(verbose_name='줄거리')
     actors = models.CharField(max_length=100, verbose_name='주연 배우')
-    director = models.CharField(max_length=100, verbose_name='주연 배우')
+    director = models.CharField(max_length=100, verbose_name='감독')
     poster = models.ImageField(upload_to='posters', blank=True, verbose_name='포스터 이미지')
     poster_url = models.URLField(max_length=400, blank=True, verbose_name='포스터 URL')
     wordcloud = models.ImageField(upload_to='wordclouds', blank=True, verbose_name='wordcloud 이미지')
