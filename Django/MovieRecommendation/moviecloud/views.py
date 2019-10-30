@@ -13,10 +13,10 @@ def home(request): # 홈페이지
         res_data = {}  # 응답 메세지를 담을 변수(딕셔너리)
         #movieDetail = MovieData.objects.get(title=title)
         movieDetail = MovieData.objects.all() # 전체 목록을 가져옴
-        cnt = 1
+        cnt = 0
         for row in movieDetail:
+            cnt += 1
             if row == title:
-                cnt += 1
                 break
         pk = cnt # 제목과 일치하는 pk(primary key) 가져옴
         return redirect('/moviecloud/detail/'+str(pk)) # url로 redirection
