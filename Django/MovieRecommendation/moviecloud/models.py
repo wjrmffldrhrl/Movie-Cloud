@@ -13,7 +13,7 @@ class MovieData(models.Model):
 #    genre = models.CharField(max_length=100, verbose_name='장르')
 #    poster = models.ImageField(upload_to='posters', blank=True, verbose_name='포스터 이미지')
     poster_url = models.URLField(max_length=400, blank=True, verbose_name='포스터 URL')
-    wordcloud = models.URLField(max_length=100, verbose_name='wordcloud 이미지 경로')
+    wordcloud = models.CharField(max_length=400, verbose_name='wordcloud 이미지 경로')
 #    wordcloud = models.ImageField(upload_to='wordclouds', blank=True, verbose_name='wordcloud 이미지')
 #    wordcloud_url = models.URLField(max_length=400, blank=True, verbose_name='워드클라우드 URL')
     premier = models.CharField(max_length=100, verbose_name='영화 개봉일')

@@ -4,6 +4,6 @@ from .models import MovieData
 # Register your models here.
 
 class MovieAdmin(admin.ModelAdmin):
-    list_display = ('title', 'director')
+    list_display = ('pk', 'title', 'director')
 
 admin.site.register(MovieData, MovieAdmin)
