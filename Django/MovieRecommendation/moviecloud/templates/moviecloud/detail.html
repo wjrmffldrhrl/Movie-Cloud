@@ -2,30 +2,42 @@
 
 {% block contents %}
 <div class="row mt-5">
+<div class="col-12 text-center">
+    <h1>{{ movieDetail.title }}</h1>
+
+</div>
+</div>
+<div class="row mt-5">
     <div class="col-12">
-            <div class="form-group">
+                <div style="width: 600px; height: 800px; float:left">
+                 <img src="{{ movieDetail.poster_url }}" style="width: 500px; height: 700px;">
+                </div>
 
-                <div style="width: 400px; height: 500px;">
-                 <img src="{{ movieDetail.poster_url }}" style="width: 400px; height: 500px;">
-               </div>
-                    <p>{{ movieDetail.id }}</p>
-                    <p>{{ movieDetail.story }}</p>
-
-                    <p>{{ movieDetail.title }}</p>
-                    <p>{{ movieDetail.director }}</p>
-                    <p>{{ movieDetail.actors }}</p>
-                    <p>{{ movieDetail.premier }}</p>
+            <div style="border:1px">
+                    <p>감독 : {{ movieDetail.director }}</p>
+                    <p>주연 배우 : {{ movieDetail.actors }}</p>
+                    <p>개봉일 : {{ movieDetail.premier }}</p>
                     <p>{{ movieDetail.score }}</p>
-
-            </div>
-                 <img src="https://raw.githubusercontent.com/kyu9341/Python-Movie-Recommendation/master/Django/MovieRecommendation/uploads/wordclouds/그린_북_wordcloud.png" style="width: 400px; height: 500px;">
-
-        <div style = "padding: 5px 1px 2px 3px;">
+                    <p>{{ movieDetail.story }}</p>
+      </div>
+        <div style = "margin:5px">
             <button type="submit" class="btn btn-primary" onClick="location.href='http://127.0.0.1:8000/moviecloud/'">돌아가기</button>
+        </div>
+    </div>
+</div>
+
+        <div>
+        <div class="col-12 text-center">
+                            <h1>워드 클라우드</h1>
+
+
+                <div style="width: 900px; height: 1000px;">
+
+                         <img src="{{ movieDetail.wordcloud }}" style="width: 900px; height: 1000px;">
+                </div>
+        </div>
         </div>
 
 
-    </div>
-</div>
 
 {% endblock %}
