@@ -4,14 +4,27 @@
 <div class="row mt-5">
     <div class="col-12">
             <div class="form-group">
-                <p>{{ movieDetail.id }}</p>
-                <p>{{ movieDetail.title }}</p>
-                <p>{{ movieDetail.director }}</p>
-                <p>{{ movieDetail.actors }}</p>
-                <p>{{ movieDetail.premier }}</p>
-                <p>{{ movieDetail.score }}</p>
+
+                <div style="width: 400px; height: 500px;">
+                 <img src="{{ movieDetail.poster_url }}" style="width: 400px; height: 500px;">
+               </div>
+                    <p>{{ movieDetail.id }}</p>
+                    <p>{{ movieDetail.story }}</p>
+
+                    <p>{{ movieDetail.title }}</p>
+                    <p>{{ movieDetail.director }}</p>
+                    <p>{{ movieDetail.actors }}</p>
+                    <p>{{ movieDetail.premier }}</p>
+                    <p>{{ movieDetail.score }}</p>
+
             </div>
-            <button type="submit" class="btn btn-primary">돌아가기</button>
+                 <img src="https://raw.githubusercontent.com/kyu9341/Python-Movie-Recommendation/master/Django/MovieRecommendation/uploads/wordclouds/캐리비안의 해적 죽은 자는 말이 없다_wordcloud.png" style="width: 400px; height: 500px;">
+
+        <div style = "padding: 5px 1px 2px 3px;">
+            <button type="submit" class="btn btn-primary" onClick="location.href='http://127.0.0.1:8000/moviecloud/'">돌아가기</button>
+        </div>
+
+
     </div>
 </div>
 
