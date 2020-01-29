@@ -24,3 +24,8 @@
 이후 머신러닝을 적용하여 영화 추천 기능을 제작한다.
 
 
+## 결과
+![posetr](https://github.com/kyu9341/Python-Movie-Recommendation/blob/master/award.png)
+
+
+
