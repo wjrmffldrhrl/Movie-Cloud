@@ -39,14 +39,14 @@
 영화를 보기 전 웹을 들어가서 줄거리와 워드클라우드, 평점 등을 열람할 수 있으며 워드클라우드를 보고 해당 영화의 분위기와 느낌을 알 수 있으며 자신과 맞는 영화인지를 스포일러를 보지 않고 파악할 수 있다.
 
 ## 데모 화면
-![movie1](https://github.com/kyu9341/Python-Movie-Recommendation/tree/master/pictures/moivecloud.png)
+![movie1](https://github.com/kyu9341/Python-Movie-Recommendation/blob/master/pictures/moviecloud.png)
 
-![movie3](https://github.com/kyu9341/Python-Movie-Recommendation/tree/master/pictures/moivecloud2.png)
+![movie2](https://github.com/kyu9341/Python-Movie-Recommendation/blob/master/pictures/moviecloud2.png)
 
-![movie2](https://github.com/kyu9341/Python-Movie-Recommendation/tree/master/pictures/moivecloud3.png)
+![movie3](https://github.com/kyu9341/Python-Movie-Recommendation/blob/master/pictures/moviecloud3.png)
 
 ## 결과
-![posetr](https://github.com/kyu9341/Python-Movie-Recommendation/tree/master/pictures/award.png)
+![posetr](https://github.com/kyu9341/Python-Movie-Recommendation/blob/master/pictures/award.png)
 
 
 
