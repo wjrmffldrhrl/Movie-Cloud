@@ -1,5 +1,6 @@
 # 2019학년도 교육용 소프트웨어 페스티발
-![posetr](https://github.com/kyu9341/Python-Movie-Recommendation/tree/master/pictures/poster.png)
+![posetr](https://github.com/kyu9341/Python-Movie-Recommendation/blob/master/pictures/poster.png)
+
 ## 행사기간  
 2019.11.11(월) ~ 11.15(금)  
 
@@ -13,7 +14,7 @@
 - 개인 및 팀에 의해 개발된 SW 작품으로 전공자(공학) 및 비전공자를 구분하여 출품
 - 개인 및 팀에 여러 개의 다른 작품 출품 가능  
 
-### 진행방향  
+## 진행방향  
 
 10.31(목) 까지 파이썬을 이용한 SW를 제작한다.  
 
@@ -39,7 +40,9 @@
 
 ## 데모 화면
 ![movie1](https://github.com/kyu9341/Python-Movie-Recommendation/tree/master/pictures/moivecloud.png)
+
 ![movie3](https://github.com/kyu9341/Python-Movie-Recommendation/tree/master/pictures/moivecloud2.png)
+
 ![movie2](https://github.com/kyu9341/Python-Movie-Recommendation/tree/master/pictures/moivecloud3.png)
 
 ## 결과
