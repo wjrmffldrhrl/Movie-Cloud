@@ -170,7 +170,8 @@ def get_txtfile(rev,filename):
 def get_rev(url,limit):
     code = url[url.find('code='):]
     sub_url_front= 'https://movie.naver.com/movie/bi/mi/pointWriteFormList.nhn?'
-    sub_url_back = '&type=after&isActualPointWriteExecute=false&isMileageSubscriptionAlready=false&isMileageSubscriptionReject=false&page='
+    sub_url_back = '&type=after&isActualPointWriteExecute=false&isMileageSubscriptionAlready=
+    false&isMileageSubscriptionReject=false&page='
     page = 1
     target = sub_url_front+code+sub_url_back+str(page)
     bs = getBs(target)
