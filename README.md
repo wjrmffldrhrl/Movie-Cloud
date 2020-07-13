@@ -45,8 +45,5 @@
 
 ![movie3](https://github.com/kyu9341/Python-Movie-Recommendation/blob/master/pictures/moviecloud3.png)
 
-## 결과
-![posetr](https://github.com/kyu9341/Python-Movie-Recommendation/blob/master/pictures/award.png)
-
 
 
